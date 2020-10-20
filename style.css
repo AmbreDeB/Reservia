@@ -212,3 +212,11 @@ i.puce {
     float: left;
     margin-left: 10px;
 }
+
+.fa-star {
+    color: #0065FC;
+}
+
+.gris {
+    color: #F2F2F2;
+}
