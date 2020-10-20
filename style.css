@@ -112,7 +112,6 @@ i.puce {
     
 }
 
-
 #economique {
     width: 40px;
     height: 40px;
@@ -177,7 +176,7 @@ i.puce {
     display: block;
     margin-top: 40px;
     width: 60%;
-    height: 600px;
+    height: 700px;
     background-color: #F2F2F2;
     border-radius: 30px;
     padding-top: 1%;
@@ -185,8 +184,8 @@ i.puce {
 }
 
 .hebergement {
-    width: 25%;
-    height: 40%;
+    width: 27%;
+    height: 35%;
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: -2px -2px 10px 2px #ebebeb;
