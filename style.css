@@ -181,6 +181,7 @@ i.puce {
     border-radius: 30px;
     padding-top: 1%;
     padding-left: 2%;
+    display: flex;
 }
 
 .hebergement {
@@ -190,7 +191,6 @@ i.puce {
     border-radius: 30px;
     box-shadow: -2px -2px 10px 2px #ebebeb;
     padding: 5px;
-    float: left;
     margin-right: 25px;
     margin-bottom: 25px;
     line-height: 0.5em;
@@ -219,3 +219,4 @@ i.puce {
 .gris {
     color: #F2F2F2;
 }
+
