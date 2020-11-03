@@ -8,6 +8,7 @@ body {
 h1 {
         font-size: 20px;
         font-weight: 900;
+        width: 100%;
     }
 
 h2 {
@@ -173,15 +174,20 @@ i.puce {
 }
 
 #hebergements {
-    display: block;
+    display: flex;
     margin-top: 40px;
     width: 60%;
-    height: 700px;
+    height: auto;
     background-color: #F2F2F2;
     border-radius: 30px;
     padding-top: 1%;
     padding-left: 2%;
-    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+#hebergements>.hebergement {
+    flex: 1 1 30%;
 }
 
 .hebergement {
@@ -199,7 +205,7 @@ i.puce {
 
 .img-hebergement {
     width: 100%;
-    height: 60%;
+    height: 150px;
     background-color: red;
     border-radius: 30px 30px 0 0;
 
