@@ -32,35 +32,39 @@ nav li {
 
 #localisation {
     display: flex;
+    position: relative;
 
 }
 
 #puce {
-    width: 30px;
-    height: 40px;
+    width: 40px;
+    height: 34px;
     border-radius: 8px 0 0 8px;
     background-color: #F2F2F2;
 }
-
-i.puce {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.fa-map-marker-alt { 
+    position: absolute;
+    top: 35%;
+    left: 1%;
 }
+
 
 #choix_ville {
     width: 200px;
     height: 30px;
     background-color: #ffffff;
+    border: 1px solid silver;
+    padding-left: 20px;
     
 }
 
 #recherche {
     width: 100px;
-    height: 40px;
+    height: 34px;
     background-color: #0065FC;
     color: #ffffff;
     border-radius: 0 8px 8px 0;
+    border: 1px solid #0065FC
 }
 
 #filtre {
