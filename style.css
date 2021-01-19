@@ -18,7 +18,7 @@ h2 {
     }
 
 h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 900;
 }
 
@@ -75,7 +75,7 @@ li:last-child a, li:last-child a:hover  {
     width: 200px;
     height: 30px;
     background-color: #ffffff;
-    border: 1px solid silver;
+    border: 0.5px solid #F2F2F2;
     padding-left: 20px;
     
 }
@@ -92,6 +92,11 @@ li:last-child a, li:last-child a:hover  {
 #filtre {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+}
+
+#filtre h2 {
+    margin-right: 20px;
 }
 
 .filtres {
@@ -106,6 +111,7 @@ li:last-child a, li:last-child a:hover  {
 .filtres p {
     position: absolute;
     left: 50px;
+    font-weight: 800;
 }
 
 .fa-money-bill-wave {
@@ -166,7 +172,7 @@ li:last-child a, li:last-child a:hover  {
 .fa-info {
     position: absolute;
     top: 25%;
-    left: 0.7%;
+    left: 0.9%;
     color: #0065FC;
     
 }
@@ -191,7 +197,7 @@ li:last-child a, li:last-child a:hover  {
     width: 60%;
     height: auto;
     background-color: #F2F2F2;
-    border-radius: 30px;
+    border-radius: 20px;
     padding-top: 1%;
     padding-left: 2%;
     padding-right: -25px;
@@ -209,15 +215,17 @@ li:last-child a, li:last-child a:hover  {
 #title_hb {
     width: 100%;
     height: auto;
+    font-weight: bold;
 }
 
 .hebergement {
-    width: 27%;
+    width: 28%;
     height: 35%;
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: -2px -2px 10px 2px #ebebeb;
-    padding: 10px;
+    padding: 5px;
+    padding-bottom: 8px;
     margin-right: 25px;
     margin-bottom: 25px;
     line-height: 0.5em;
@@ -226,7 +234,7 @@ li:last-child a, li:last-child a:hover  {
 .img-hebergement {
     width: 100%;
     height: 100px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 #hb1 {
@@ -234,7 +242,6 @@ li:last-child a, li:last-child a:hover  {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 
 #hb2 {
     background-image: url(images/hebergements/4_small/Modifiées/auberge-du-port.jpg);
@@ -270,7 +277,8 @@ li:last-child a, li:last-child a:hover  {
     width: 100%;
     height: 50%;
     float: left;
-    margin-left: 10px;
+    margin-left: 12px;
+    font-size: 12px;
 }
 
 .fa-star {
@@ -283,6 +291,9 @@ li:last-child a, li:last-child a:hover  {
 
 #afficher {
     font-weight: 900;
+    padding-left: 10px;
+    padding-bottom: 20px;
+   
 }
 
 #populaire {
@@ -291,7 +302,7 @@ li:last-child a, li:last-child a:hover  {
     width: 30%;
     height: auto;
     background-color: #F2F2F2;
-    border-radius: 30px;
+    border-radius: 20px;
     padding-top: 1%;
     padding-right: -25px;
     padding-bottom: 30px;
@@ -306,19 +317,19 @@ li:last-child a, li:last-child a:hover  {
 
 .hebergement2 {
     width: 300px;
-    height: auto;
+    height: 27%;
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: -2px -2px 10px 2px #ebebeb;
     padding: 3px;
-    margin-bottom: 25px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .img-hebergement2 {
     width: 120px;
-    height: auto;
-    border-radius: 30px 0 0 30px;
+    height: 100px;
+    border-radius: 20px 0 0 20px;
     margin: 0;
 }
 
@@ -331,12 +342,95 @@ li:last-child a, li:last-child a:hover  {
 .legende-hebergement2 {
     float: left;
     width: 50%;
-    height: 50%;
+    height: 100%;
     margin-left: 10px;
     margin: 0;
     padding-left: 10px;
+    font-size: 12px;
+}
+
+.etoiles {
+    margin-bottom: 2px;
 }
 
 .hebergement2 a {
     display: flex;
+}
+
+#cards {
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+#vieux-port {
+    width: 22%;
+    height: 100%;
+    border-radius: 20px; 
+}
+
+.duo {
+    width: 22%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+#fort {
+    width: 100%;
+    height: 55%;
+    background-color: pink;
+    border-radius: 20px;
+  
+}
+
+#iles {
+    width: 100%;
+    height: 35%;
+    background-color: grey;
+    
+}
+
+#parc {
+    width: 22%;
+    height: 100%;
+    background-color: rgb(90, 121, 90);
+
+}
+
+#notre-dame {
+    width: 100%;
+    height: 45%;
+    background-color: rgb(184, 228, 184);
+
+}
+
+#parc2 {
+    width: 100%;
+    height: 45%;
+    background-color: green;
+  
+}
+
+.images {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.legende-activites {
+    width: 100%;
+    height: 10%;
+    background-color: pink;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+
+  
 }
