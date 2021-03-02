@@ -429,3 +429,10 @@ figure {
   padding-left: 10%;
   font-weight: 900;
 }
+
+@media (max-width: 600px) {
+
+body {
+  background-color: green;
+}
+}
